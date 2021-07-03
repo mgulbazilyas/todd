@@ -1,0 +1,1 @@
+"C:\Program Files\BlueStacks_bgp64\HD-RunApp.exe" -json "{\"app_icon_url\":\"\",\"app_name\":\"Grindr\",\"app_url\":\"\",\"app_pkg\":\"com.grindrapp.android\"}"
