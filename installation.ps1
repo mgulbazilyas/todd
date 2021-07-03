@@ -10,7 +10,8 @@ Start-BitsTransfer -Source $source -Destination $destination
 & '.\bluestacks.exe' -s -q
 
 timeout /t 300
-& "C:\Program Files\BlueStacks_nxt\bluestacks.exe"
+$process = "C:\Program Files\BlueStacks_nxt\bluestacks.exe"
+$myprocss = Start-Process -FilePath "$process$"  -PassThru
 timeout /t 150
 
 
