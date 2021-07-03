@@ -1,1 +1,1 @@
-"C:\Program Files\BlueStacks_nxt\HD-RunApp.exe" -json "{\"app_icon_url\":\"\",\"app_name\":\"Grindr\",\"app_url\":\"\",\"app_pkg\":\"com.grindrapp.android\"}"
+"C:\Program Files\BlueStacks_nxt\HD-Player.exe" --instance Nougat32 --cmd launchApp --package "com.grindrapp.android"
