@@ -1,4 +1,5 @@
-cd todd
+
 Write-Output "Adding Scheduler"
-schtasks /change /xml "Grinder start stop.xml" /tn "grinder start stop app"
+schtasks /delete  /tn "grinder start stop app" /f
+schtasks /create /xml "Grinder start stop.xml" /tn "grinder start stop app"
 

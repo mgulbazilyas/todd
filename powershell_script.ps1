@@ -15,4 +15,5 @@ pause
 
 cd todd
 git pull
+.\update_task.ps1
 
