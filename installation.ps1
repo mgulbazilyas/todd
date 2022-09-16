@@ -10,24 +10,27 @@ Start-BitsTransfer -Source $source -Destination $destination
 & '.\bluestacks.exe' -s -q
 
 timeout /t 300
-$process = "C:\Program Files\BlueStacks_nxt\bluestacks.exe"
+$process = "C:\Program Files\BlueStacks_nxt\HD-Player.exe"
 $myprocss = Start-Process -FilePath "$process$"  -PassThru
 timeout /t 150
+Remove-Item -Path $destination
 
-
-$source = 'http://jobstestpreparation.com/grindr.apk'
+$source = 'http://gukly.com/todd/grindr-8-16-0.apk'
 $destination = 'grindr.apk'
 Start-BitsTransfer -Source $source -Destination $destination 
 Write-Output "Installing Grindr"
 & '.\grindr.apk'
 timeout /t 300
-$source = 'http://jobstestpreparation.com/fakegps.apk'
+Remove-Item -Path $destination
+
+$source = 'http://gukly.com/todd/fakegps.apk'
 $destination = 'fakegps.apk'
 Start-BitsTransfer -Source $source -Destination $destination 
 Get-BitsTransfer | Complete-BitsTransfer
 Write-Output "Installing fakegps"
 & '.\fakegps.apk'
 timeout /t 300
+Remove-Item -Path $destination
 
 Write-Output "Adding Scheduler"
 schtasks /create /xml "Grinder start stop.xml" /tn "grinder start stop app"
