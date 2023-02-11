@@ -10,11 +10,5 @@ timeout /t 10
 cd todd
 git pull
 .\installationPart2.ps1
-refreshenv
 
-
-
-cd todd
-
-.\isntallationPart2.ps1
 
