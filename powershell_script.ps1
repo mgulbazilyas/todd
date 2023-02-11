@@ -6,8 +6,9 @@ refreshenv
 $myprocss = Start-Process -FilePath "C:\Program Files\Git\bin\git.exe" -ArgumentList "clone https://github.com/mgulbazilyas/todd" -PassThru
 
 $myprocss.WaitForExit()
-
+timeout /t 10
 cd todd
+git pull
 .\installationPart2.ps1
 refreshenv
 
