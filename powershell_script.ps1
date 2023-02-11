@@ -8,12 +8,12 @@ $myprocss = Start-Process -FilePath "C:\Program Files\Git\bin\git.exe" -Argument
 $myprocss.WaitForExit()
 
 cd todd
-.\installation.ps1
+.\installationPart2.ps1
 refreshenv
-pause
+
 
 
 cd todd
-git pull
-.\update_task.ps1
+
+.\isntallationPart2.ps1
 
