@@ -1,0 +1,177 @@
+{
+  "Version": 0.2,
+  "GeneralSettings": {
+    "UseThumbnails": true,
+    "SendFeedback": true,
+    "LastAppVersion": "10.2.1810.0",
+    "DisableInSessionLockScreen": false,
+    "KeyboardInterceptorMode": 0,
+    "ConnectFullscreen": true,
+    "StartInNewWindow": true,
+    "SessionResizeMode": 0,
+    "LastShownConnectionCenterTab": 0,
+    "PreferredTheme": 2,
+    "ResizeOnFullscreen": false,
+    "PersistentModelId": "00000000-0000-0000-0000-000000000000"
+  },
+  "Credentials": [
+    {
+      "Username": "Administrator",
+      "FriendlyName": "vps.control-panel",
+      "ImportHadSavedPassword": true,
+      "PasswordVaultResourceID": "9fc4dd82-0c82-4abf-8d27-4be674c59e99",
+      "PersistentModelId": "2bf8f1a1-4d73-4c86-9206-5cf70fd769f2"
+    },
+    {
+      "Username": "Administrator",
+      "FriendlyName": "Petteytod@gmail",
+      "ImportHadSavedPassword": true,
+      "PasswordVaultResourceID": "e82f212c-72a9-47d7-8e84-5c05d41566cf",
+      "PersistentModelId": "b9cdc0e4-e567-42bb-af56-2801eea31714"
+    },
+    {
+      "Username": "Administrator",
+      "FriendlyName": "Kevin123",
+      "ImportHadSavedPassword": true,
+      "PasswordVaultResourceID": "f16d6f76-6c19-4d51-a0a9-df6433d58525",
+      "PersistentModelId": "e3387569-edac-4516-9f28-fcf8800e20ac"
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Todd",
+      "PersistentModelId": "3d950104-fdc0-4879-8107-ca3bb855090a"
+    },
+    {
+      "Name": "Web Horizen",
+      "PersistentModelId": "711907df-2272-434f-911c-3d5aacc01b65"
+    }
+  ],
+  "Gateways": [],
+  "Connections":[
+    {
+    "HostName": "41.216.186.199",
+    "GroupId": "711907df-2272-434f-911c-3d5aacc01b65",
+    "FriendlyName": "",
+    "CredentialsId": "2bf8f1a1-4d73-4c86-9206-5cf70fd769f2",
+    "LocalResourcesSettings": {
+        "RedirectClipboard": true,
+        "PersistentModelId": "00000000-0000-0000-0000-000000000000"
+    },
+    "PersistentModelId": "1d06aedb-bc45-4de4-8879-3b5307a28362"
+} ,
+{
+    "HostName": "41.216.186.180",
+    "GroupId": "711907df-2272-434f-911c-3d5aacc01b65",
+    "FriendlyName": "",
+    "CredentialsId": "2bf8f1a1-4d73-4c86-9206-5cf70fd769f2",
+    "LocalResourcesSettings": {
+        "RedirectClipboard": true,
+        "PersistentModelId": "00000000-0000-0000-0000-000000000000"
+    },
+    "PersistentModelId": "56708a87-d271-41c1-9dd5-b2fa6d532171"
+} ,
+{
+    "HostName": "41.216.186.202",
+    "GroupId": "711907df-2272-434f-911c-3d5aacc01b65",
+    "FriendlyName": "",
+    "CredentialsId": "2bf8f1a1-4d73-4c86-9206-5cf70fd769f2",
+    "LocalResourcesSettings": {
+        "RedirectClipboard": true,
+        "PersistentModelId": "00000000-0000-0000-0000-000000000000"
+    },
+    "PersistentModelId": "790a9c73-ac79-4094-9808-a9c17c6cf05c"
+} ,
+{
+    "HostName": "41.216.186.204",
+    "GroupId": "711907df-2272-434f-911c-3d5aacc01b65",
+    "FriendlyName": "",
+    "CredentialsId": "2bf8f1a1-4d73-4c86-9206-5cf70fd769f2",
+    "LocalResourcesSettings": {
+        "RedirectClipboard": true,
+        "PersistentModelId": "00000000-0000-0000-0000-000000000000"
+    },
+    "PersistentModelId": "9cecb93e-dab4-4819-a327-2d5f893c3a68"
+} ,
+{
+    "HostName": "41.216.186.203",
+    "GroupId": "711907df-2272-434f-911c-3d5aacc01b65",
+    "FriendlyName": "",
+    "CredentialsId": "2bf8f1a1-4d73-4c86-9206-5cf70fd769f2",
+    "LocalResourcesSettings": {
+        "RedirectClipboard": true,
+        "PersistentModelId": "00000000-0000-0000-0000-000000000000"
+    },
+    "PersistentModelId": "cc14cfb8-92e8-439b-90f8-a31d9088f571"
+} ,
+{
+    "HostName": "41.216.186.205",
+    "GroupId": "711907df-2272-434f-911c-3d5aacc01b65",
+    "FriendlyName": "",
+    "CredentialsId": "2bf8f1a1-4d73-4c86-9206-5cf70fd769f2",
+    "LocalResourcesSettings": {
+        "RedirectClipboard": true,
+        "PersistentModelId": "00000000-0000-0000-0000-000000000000"
+    },
+    "PersistentModelId": "b50c5e66-7e96-4e92-afb3-b2bef1ff624e"
+} ,
+{
+    "HostName": "41.216.186.206",
+    "GroupId": "711907df-2272-434f-911c-3d5aacc01b65",
+    "FriendlyName": "",
+    "CredentialsId": "2bf8f1a1-4d73-4c86-9206-5cf70fd769f2",
+    "LocalResourcesSettings": {
+        "RedirectClipboard": true,
+        "PersistentModelId": "00000000-0000-0000-0000-000000000000"
+    },
+    "PersistentModelId": "df257e00-2db2-4b64-a6d9-d83c8bafa14a"
+} ,
+{
+    "HostName": "41.216.186.207",
+    "GroupId": "711907df-2272-434f-911c-3d5aacc01b65",
+    "FriendlyName": "",
+    "CredentialsId": "2bf8f1a1-4d73-4c86-9206-5cf70fd769f2",
+    "LocalResourcesSettings": {
+        "RedirectClipboard": true,
+        "PersistentModelId": "00000000-0000-0000-0000-000000000000"
+    },
+    "PersistentModelId": "7a59ab2c-4b25-4160-bc8d-440a0ea53a6e"
+} ,
+{
+    "HostName": "41.216.186.208",
+    "GroupId": "711907df-2272-434f-911c-3d5aacc01b65",
+    "FriendlyName": "",
+    "CredentialsId": "2bf8f1a1-4d73-4c86-9206-5cf70fd769f2",
+    "LocalResourcesSettings": {
+        "RedirectClipboard": true,
+        "PersistentModelId": "00000000-0000-0000-0000-000000000000"
+    },
+    "PersistentModelId": "d3cdf1fc-c2ba-44be-b0c3-ab78d58b3e75"
+} ,
+{
+    "HostName": "41.216.186.209",
+    "GroupId": "711907df-2272-434f-911c-3d5aacc01b65",
+    "FriendlyName": "",
+    "CredentialsId": "2bf8f1a1-4d73-4c86-9206-5cf70fd769f2",
+    "LocalResourcesSettings": {
+        "RedirectClipboard": true,
+        "PersistentModelId": "00000000-0000-0000-0000-000000000000"
+    },
+    "PersistentModelId": "6977bb96-fb26-4ffb-9a57-aa11c641e2c9"
+} ,
+{
+    "HostName": "41.216.186.210",
+    "GroupId": "711907df-2272-434f-911c-3d5aacc01b65",
+    "FriendlyName": "",
+    "CredentialsId": "2bf8f1a1-4d73-4c86-9206-5cf70fd769f2",
+    "LocalResourcesSettings": {
+        "RedirectClipboard": true,
+        "PersistentModelId": "00000000-0000-0000-0000-000000000000"
+    },
+    "PersistentModelId": "1ffca343-c107-43a8-b173-82c1bb522f6a"
+}
+  ],
+  "OnPremWorkspaces": [],
+  "Subscriptions": [],
+  "AzureUsers": []
+}

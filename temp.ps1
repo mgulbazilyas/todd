@@ -1,5 +1,5 @@
 $instances = Get-ChildItem -Directory "C:\ProgramData\BlueStacks\Engine" -Exclude "Manager","Promotions","UserData"
-$stop_timeout_val = 300;
+$stop_timeout_val = 350;
 Write-Output $instance
 For ($i=0; $i -lt $instances.Length; $i++) {
     $instance = $instances[$i].BaseName
