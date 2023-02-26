@@ -8,7 +8,9 @@ $myprocss = Start-Process -FilePath "C:\Program Files\Git\bin\git.exe" -Argument
 $myprocss.WaitForExit()
 timeout /t 10
 cd todd
+git stash
 git pull
 .\installationPart2.ps1
+
 
 
