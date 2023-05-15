@@ -1,5 +1,5 @@
 $instances = Get-ChildItem -Directory "C:\ProgramData\BlueStacks_nxt\Engine" -Exclude "Manager","Promotions","UserData"
-$stop_timeout_val = 450;
+$stop_timeout_val = 40;
 Write-Output $instance
 while (1) {
     For ($i=0; $i -lt $instances.Length; $i++) {
