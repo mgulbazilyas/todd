@@ -3,6 +3,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 refreshenv
 choco install git -params '"/GitAndUnixToolsOnPath"' -y
 refreshenv
+cd C:\Users\User\
 $myprocss = Start-Process -FilePath "C:\Program Files\Git\bin\git.exe" -ArgumentList "clone https://github.com/mgulbazilyas/todd" -PassThru
 
 $myprocss.WaitForExit()
@@ -12,5 +13,7 @@ git stash
 git pull
 .\installationPart2.ps1
 
+
+Start-ScheduledTask -TaskName "grinder start stop app"
 
 
